@@ -1,7 +1,7 @@
-from generation import LLaMA
+from llama.generation import LLaMA
 from pathlib import Path
-from model_single import ModelArgs, Transformer
-from tokenizer import Tokenizer
+from llama.model_single import ModelArgs, Transformer
+from llama.tokenizer import Tokenizer
 import torch
 import json
 
