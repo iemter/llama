@@ -23,7 +23,7 @@ pip install -e .
 ```
 pip install sentencepiece-0.1.98-cp311-cp311-win_amd64.whl
 ```
-(See [here](https://github.com/google/sentencepiece/issues/810))
+(See [here](https://github.com/google/sentencepiece/issues/810) for the download of the .whl-File)
 
 6. Run
 ```
