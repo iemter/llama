@@ -17,9 +17,9 @@ pip install -e .
 ## Installation on Windows in detail
 1. Download [CUDA](https://developer.nvidia.com/cuda-downloads) (12.1 works) and install 
 2. Download [CuDNN](https://developer.nvidia.com/rdp/cudnn-download) and follow the [installation guidelines](https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html)
-3. [Install PyTorch](https://pytorch.org/get-started/locally/), the version for CUDA 11.8 works for CUDA 12.1 as well
 4. Make a new Anaconda environment with Python 3.11
-5. Install sentencepiece using 
+5. [Install PyTorch](https://pytorch.org/get-started/locally/), the version for CUDA 11.8 works for CUDA 12.1 as well
+6. Install sentencepiece using 
 ```
 pip install sentencepiece-0.1.98-cp311-cp311-win_amd64.whl
 ```
